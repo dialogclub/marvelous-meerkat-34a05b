@@ -12,8 +12,8 @@ export async function generateMetadata(): Promise<Metadata> {
     title: "cinema.vision — кіно як простір спільного мислення",
     description: "Синемалогія, філософія кіно, семіотика та психологія смислів.",
     icons: { icon: "/favicon.svg" },
-    openGraph: { title: "Синемалогія: «Одіссея»", description: "Повернутися додому — означає зустріти того, ким ти став у дорозі.", type: "website", url: origin, images: [{ url: `${origin}/og-odyssey.png`, width: 1664, height: 928, alt: "Синемалогія: Одіссея — cinema.vision" }] },
-    twitter: { card: "summary_large_image", images: [`${origin}/og-odyssey.png`] },
+    openGraph: { title: "Синемалогія: «Револьвер»", description: "Найсильніший суперник — той, кого ти щоранку приймаєш за себе.", type: "website", url: origin },
+    twitter: { card: "summary_large_image" },
   };
 }
 
